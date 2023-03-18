@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "user")
+@Table(name = "my_user")
 public class User implements com.github.parkhuiwo0.testcontainer.domain.User {
 
     @Id
